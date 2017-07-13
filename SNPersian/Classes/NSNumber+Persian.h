@@ -1,5 +1,5 @@
 //
-//  int+Persian.h
+//  NSNumber+Persian.h
 //  SNPersian
 //
 //  Created by Sina Khalili on 7/14/17.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface int (SKPersian)
+@interface NSNumber (SKPersian)
 
 -(NSString *) persianDigits;
 

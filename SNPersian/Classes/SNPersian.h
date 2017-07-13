@@ -7,3 +7,4 @@
 //
 
 #import "NSString+Persian.h"
+#import "NSNumber+Persian.h"
