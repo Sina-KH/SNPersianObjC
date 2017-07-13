@@ -12,8 +12,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		894728C41F18043E00620B54 /* NSString+Persian.m in Sources */ = {isa = PBXBuildFile; fileRef = 894728C11F18043E00620B54 /* NSString+Persian.m */; };
-		894728C51F18043E00620B54 /* SNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 894728C21F18043E00620B54 /* SNConstants.m */; };
+		8947290E1F18160500620B54 /* NSString+Persian.m in Sources */ = {isa = PBXBuildFile; fileRef = 894729091F18160500620B54 /* NSString+Persian.m */; };
+		894729111F18160500620B54 /* SNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8947290C1F18160500620B54 /* SNConstants.m */; };
+		894729121F18161200620B54 /* NSString+Persian.h in Sources */ = {isa = PBXBuildFile; fileRef = 894729081F18160500620B54 /* NSString+Persian.h */; };
+		894729131F18161200620B54 /* SNPersian.h in Sources */ = {isa = PBXBuildFile; fileRef = 8947290D1F18160500620B54 /* SNPersian.h */; };
 		F3160991D67FE1B1673176EA /* Pods_SNPersian_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C554C45D77D61ADAC7F32EC1 /* Pods_SNPersian_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,10 +32,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		894728C01F18043E00620B54 /* NSString+Persian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Persian.h"; sourceTree = "<group>"; };
-		894728C11F18043E00620B54 /* NSString+Persian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Persian.m"; sourceTree = "<group>"; };
-		894728C21F18043E00620B54 /* SNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNConstants.m; sourceTree = "<group>"; };
-		894728C31F18043E00620B54 /* SNPersian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNPersian.h; sourceTree = "<group>"; };
+		894729081F18160500620B54 /* NSString+Persian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Persian.h"; path = "../SNPersian/Classes/NSString+Persian.h"; sourceTree = "<group>"; };
+		894729091F18160500620B54 /* NSString+Persian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Persian.m"; path = "../SNPersian/Classes/NSString+Persian.m"; sourceTree = "<group>"; };
+		8947290C1F18160500620B54 /* SNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNConstants.m; path = ../SNPersian/Classes/SNConstants.m; sourceTree = "<group>"; };
+		8947290D1F18160500620B54 /* SNPersian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNPersian.h; path = ../SNPersian/Classes/SNPersian.h; sourceTree = "<group>"; };
 		BFBA82E0227C86E2919BAA63 /* Pods-SNPersian_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPersian_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNPersian_Tests/Pods-SNPersian_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C554C45D77D61ADAC7F32EC1 /* Pods_SNPersian_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNPersian_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED6D23994A70EAAFB3BDE22 /* Pods-SNPersian_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPersian_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNPersian_Tests/Pods-SNPersian_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,10 +120,10 @@
 		894728BF1F18042400620B54 /* SNPersian */ = {
 			isa = PBXGroup;
 			children = (
-				894728C01F18043E00620B54 /* NSString+Persian.h */,
-				894728C11F18043E00620B54 /* NSString+Persian.m */,
-				894728C21F18043E00620B54 /* SNConstants.m */,
-				894728C31F18043E00620B54 /* SNPersian.h */,
+				894729081F18160500620B54 /* NSString+Persian.h */,
+				894729091F18160500620B54 /* NSString+Persian.m */,
+				8947290C1F18160500620B54 /* SNConstants.m */,
+				8947290D1F18160500620B54 /* SNPersian.h */,
 			);
 			name = SNPersian;
 			sourceTree = "<group>";
@@ -250,8 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894728C41F18043E00620B54 /* NSString+Persian.m in Sources */,
-				894728C51F18043E00620B54 /* SNConstants.m in Sources */,
+				894729121F18161200620B54 /* NSString+Persian.h in Sources */,
+				894729131F18161200620B54 /* SNPersian.h in Sources */,
+				894729111F18160500620B54 /* SNConstants.m in Sources */,
+				8947290E1F18160500620B54 /* NSString+Persian.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
