@@ -6,5 +6,7 @@
 //  Copyright © 2017 SinaKH. All rights reserved.
 //
 
-#import "NSString+Persian.h"
+#import "NSDate+Persian.h"
 #import "NSNumber+Persian.h"
+#import "NSString+Persian.h"
+#import "SNJalaali.h"

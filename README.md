@@ -7,6 +7,56 @@
 
 ## Examples
 
+First of all, don't forget to import SNPersian.h in your .m file
+
+```sh
+import "SNPersian.h"
+```
+
+### NSDate Extension
+
+```sh
+[[date jalaali] textWithFormat:SNJalaaliFormatEnglish]
+```
+
+- Input: April 4, 1996
+- Output: 1375/01/16
+
+```sh
+[[date jalaali] textWithFormat:SNJalaaliFormatPersian]
+```
+
+- Input: April 4, 1996
+- Output: ۱۳۷۵/۰۱/۱۶
+
+```sh
+[[date jalaali] textWithFormat:SNJalaaliFormatPersianText]
+```
+
+- Input: April 4, 1996
+- Output: ۱۶ فروردین ۱۳۷۵
+
+```sh
+[date jalaali].year
+```
+
+- Input: April 4, 1996
+- Output: ۱۳۷۵
+
+```sh
+[date jalaali].month
+```
+
+- Input: April 4, 1996
+- Output: ۱
+
+```sh
+[date jalaali].day
+```
+
+- Input: April 4, 1996
+- Output: ۱۶
+
 ### NSString Extension
 
 ```sh
