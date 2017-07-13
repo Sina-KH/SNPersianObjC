@@ -36,6 +36,8 @@
 		894729091F18160500620B54 /* NSString+Persian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Persian.m"; path = "../SNPersian/Classes/NSString+Persian.m"; sourceTree = "<group>"; };
 		8947290C1F18160500620B54 /* SNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNConstants.m; path = ../SNPersian/Classes/SNConstants.m; sourceTree = "<group>"; };
 		8947290D1F18160500620B54 /* SNPersian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNPersian.h; path = ../SNPersian/Classes/SNPersian.h; sourceTree = "<group>"; };
+		894729141F181AAA00620B54 /* int+Persian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "int+Persian.h"; path = "../SNPersian/Classes/int+Persian.h"; sourceTree = "<group>"; };
+		894729161F181AEF00620B54 /* int+Persian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "int+Persian.m"; path = "../SNPersian/Classes/int+Persian.m"; sourceTree = "<group>"; };
 		BFBA82E0227C86E2919BAA63 /* Pods-SNPersian_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPersian_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNPersian_Tests/Pods-SNPersian_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C554C45D77D61ADAC7F32EC1 /* Pods_SNPersian_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNPersian_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED6D23994A70EAAFB3BDE22 /* Pods-SNPersian_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPersian_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNPersian_Tests/Pods-SNPersian_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,8 @@
 		894728BF1F18042400620B54 /* SNPersian */ = {
 			isa = PBXGroup;
 			children = (
+				894729141F181AAA00620B54 /* int+Persian.h */,
+				894729161F181AEF00620B54 /* int+Persian.m */,
 				894729081F18160500620B54 /* NSString+Persian.h */,
 				894729091F18160500620B54 /* NSString+Persian.m */,
 				8947290C1F18160500620B54 /* SNConstants.m */,
