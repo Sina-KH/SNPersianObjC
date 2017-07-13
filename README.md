@@ -5,11 +5,30 @@
 [![License](https://img.shields.io/cocoapods/l/SNPersian.svg?style=flat)](http://cocoapods.org/pods/SNPersian)
 [![Platform](https://img.shields.io/cocoapods/p/SNPersian.svg?style=flat)](http://cocoapods.org/pods/SNPersian)
 
-## Example
+## Examples
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### NSString Extension
 
-## Requirements
+```sh
+[myString persianDigits]
+```
+
+- Input: میخواهیم عدد 24 را فارسی کنیم
+- Output: میخواهیم عدد ۲۴ را فارسی کنیم
+
+```sh
+[myString englishDigits]
+```
+
+- Input: میخواهیم عدد ۲۴ را انگلیسی کنیم
+- Output: میخواهیم عدد 24 را انگلیسی کنیم
+
+```sh
+[myString persianChars]
+```
+
+- Input: ميخواهيم كاراكتر ها را فارسي کنیم
+- Output: میخواهیم عدد 24 را انگلیسی کنیم
 
 ## Installation
 
