@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     SNPersian, provides some extensions for Objective-C Classes including NSString, NSDate &... to support Persian Language and Jalaali DateTime as well.
                        DESC
 
-  s.homepage         = 'https://github.com/SinaKH/SNPersianObjC'
+  s.homepage         = 'https://github.com/Sina-KH/SNPersianObjC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SinaKH' => 'sina_od@yahoo.com' }
