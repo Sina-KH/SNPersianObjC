@@ -30,6 +30,19 @@
 - Input: ميخواهيم كاراكتر ها را فارسي کنیم
 - Output: میخواهیم عدد 24 را انگلیسی کنیم
 
+### NSNumber Extension
+
+```sh
+[@12345 persianDigits]
+```
+
+- Input: 12345
+- Output: ۱۲،۳۴۵
+
+```sh
+[myString englishDigits]
+```
+
 ## Installation
 
 SNPersian is available through [CocoaPods](http://cocoapods.org). To install
