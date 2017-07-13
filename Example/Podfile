@@ -1,6 +1,0 @@
-use_frameworks!
-target 'SNPersian_Tests' do
-  pod 'SNPersian', :path => '../'
-  
-  
-end
