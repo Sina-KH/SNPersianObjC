@@ -6,6 +6,8 @@
 //  Copyright (c) 2017 SinaKH. All rights reserved.
 //
 
+#import "SNPersian.h"
+
 @import XCTest;
 
 @interface Tests : XCTestCase
@@ -28,7 +30,10 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    // NSString test
+    XCTAssertTrue([[@"0,1,2,3,4,5,6,7,8,9" persianDigits] isEqualToString: @"۰,۱,۲,۳,۴,۵,۶,۷,۸,۹"]);
+    XCTAssertTrue([[@"٠,١,٢,٣,٤,٥,٦,٧,٨,٩" persianDigits] isEqualToString: @"۰,۱,۲,۳,۴,۵,۶,۷,۸,۹"]);
+    XCTAssertTrue([[@"ي,ة,ك" persianChars] isEqualToString: @"ی,ه,ک"]);
 }
 
 @end
