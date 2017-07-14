@@ -15,47 +15,39 @@ import "SNPersian.h"
 
 ### NSDate Extension
 
-```sh
-[[date jalaali] textWithFormat:SNJalaaliFormatEnglish]
-```
-
-- Input: April 4, 1996
-- Output: 1375/01/16
+- Input: April 4, 1996 15:00
 
 ```sh
-[[date jalaali] textWithFormat:SNJalaaliFormatPersian]
+[[date jalaali] dateWithFormat:SNJalaaliDateFormatEnglish]
 ```
 
-- Input: April 4, 1996
-- Output: ۱۳۷۵/۰۱/۱۶
+Available date formats:
+
+* `SNJalaaliDateFormatEnglish`          1375/01/16
+* `SNJalaaliDateFormatPersian`          ۱۳۷۵/۰۱/۱۶
+* `SNJalaaliDateFormatPersianText`      خروجی: ۱۶ فروردین ۱۳۷۵
 
 ```sh
-[[date jalaali] textWithFormat:SNJalaaliFormatPersianText]
+[[date jalaali] timeWithFormat:SNJalaaliTimeFormatEnglish]
 ```
 
-- Input: April 4, 1996
-- Output: ۱۶ فروردین ۱۳۷۵
+Available time formats:
 
+* `SNJalaaliTimeFormatEnglish`          15:00
+* `SNJalaaliTimeFormatEnglishText`      3:00 PM
+* `SNJalaaliTimeFormatPersian`          ۱۵:00
+* `SNJalaaliTimeFormatPersianText`      خروجی: ۳:۰۰ ب.ظ
+* `SNJalaaliTimeFormatPersianLongText`  خروجی: ۳:۰۰ بعدازظهر
+
+Other APIs:
 ```sh
 [date jalaali].year
-```
-
-- Input: April 4, 1996
-- Output: ۱۳۷۵
-
-```sh
 [date jalaali].month
-```
-
-- Input: April 4, 1996
-- Output: ۱
-
-```sh
 [date jalaali].day
+[date jalaali].hour
+[date jalaali].minute
+[date jalaali].second
 ```
-
-- Input: April 4, 1996
-- Output: ۱۶
 
 ### NSString Extension
 

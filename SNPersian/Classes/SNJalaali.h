@@ -13,17 +13,30 @@
 @property(readonly) NSInteger year;
 @property(readonly) NSInteger month;
 @property(readonly) NSInteger day;
+@property(readonly) NSInteger hour;
+@property(readonly) NSInteger minute;
+@property(readonly) NSInteger second;
 
 -(instancetype)initWithDate:(NSDate *)date;
 
 
 
-typedef NS_ENUM(NSInteger, SNJalaaliFormat) {
-    SNJalaaliFormatEnglish,
-    SNJalaaliFormatPersian,
-    SNJalaaliFormatPersianText
+typedef NS_ENUM(NSInteger, SNJalaaliDateFormat) {
+    SNJalaaliDateFormatEnglish,
+    SNJalaaliDateFormatPersian,
+    SNJalaaliDateFormatPersianText
 };
+-(NSString *)dateWithFormat: (SNJalaaliDateFormat) format;
 
--(NSString *)textWithFormat: (SNJalaaliFormat) format;
+typedef NS_ENUM(NSInteger, SNJalaaliTimeFormat) {
+    SNJalaaliTimeFormatEnglish,
+    SNJalaaliTimeFormatEnglishText,
+    SNJalaaliTimeFormatPersian,
+    SNJalaaliTimeFormatPersianText,
+    SNJalaaliTimeFormatPersianLongText
+};
+-(NSString *)timeWithFormat: (SNJalaaliTimeFormat) format;
+
+-(NSString *)dateTimeWithFormat: (SNJalaaliDateFormat) dateFormat timeFormat: (SNJalaaliTimeFormat) timeFormat seperator: (NSString *) separator;
 
 @end
