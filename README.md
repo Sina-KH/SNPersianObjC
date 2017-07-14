@@ -1,6 +1,6 @@
 # SNPersian
 
-[![CI Status](http://img.shields.io/travis/SinaKH/SNPersian.svg?style=flat)](https://travis-ci.org/SinaKH/SNPersian)
+[![CI Status](http://img.shields.io/travis/Sina-KH/SNPersian.svg?style=flat)](https://travis-ci.org/Sina-KH/SNPersian)
 [![Version](https://img.shields.io/cocoapods/v/SNPersian.svg?style=flat)](http://cocoapods.org/pods/SNPersian)
 [![License](https://img.shields.io/cocoapods/l/SNPersian.svg?style=flat)](http://cocoapods.org/pods/SNPersian)
 [![Platform](https://img.shields.io/cocoapods/p/SNPersian.svg?style=flat)](http://cocoapods.org/pods/SNPersian)
