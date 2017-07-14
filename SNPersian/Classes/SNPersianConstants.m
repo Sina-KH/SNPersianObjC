@@ -1,5 +1,5 @@
 //
-//  SNConstants.m
+//  SNPersianConstants.m
 //  SNPersian
 //
 //  Created by Sina Khalili on 7/13/17.
