@@ -33,17 +33,9 @@
 }
 
 -(NSString *)dateWithFormat: (SNJalaaliDateFormat) format {
-    NSString *strMonth = [NSString stringWithFormat: @"%ld", (long)_month];
-    if ([strMonth length] < 2) {
-        strMonth = [@"0" stringByAppendingString:strMonth];
-    }
-    NSString *strDay = [NSString stringWithFormat: @"%ld", (long)_day];
-    if ([strDay length] < 2) {
-        strDay = [@"0" stringByAppendingString:strDay];
-    }
     switch (format) {
         case SNJalaaliDateFormatEnglish:
-            return [NSString stringWithFormat:@"%ld/%@/%@", (long)_year, strMonth, strDay];
+            return [NSString stringWithFormat:@"%ld/%ld/%ld", (long)_year, (long)_month, (long)_day];
         case SNJalaaliDateFormatPersian:
             return [[self dateWithFormat:SNJalaaliDateFormatEnglish] persianDigits];
         case SNJalaaliDateFormatPersianText:
