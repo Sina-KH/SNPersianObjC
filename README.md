@@ -35,7 +35,7 @@ Available time formats:
 
 * `SNJalaaliTimeFormatEnglish`          15:00
 * `SNJalaaliTimeFormatEnglishText`      3:00 PM
-* `SNJalaaliTimeFormatPersian`          ۱۵:00
+* `SNJalaaliTimeFormatPersian`          ۱۵:۰۰
 * `SNJalaaliTimeFormatPersianText`      خروجی: ۳:۰۰ ب.ظ
 * `SNJalaaliTimeFormatPersianLongText`  خروجی: ۳:۰۰ بعدازظهر
 
