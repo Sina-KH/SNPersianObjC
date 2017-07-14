@@ -35,8 +35,8 @@ Available string formats:
 
 Available date formats:
 
-* `SNJalaaliDateFormatEnglish`          1375/01/16
-* `SNJalaaliDateFormatPersian`          ۱۳۷۵/۰۱/۱۶
+* `SNJalaaliDateFormatEnglish`          1375/1/16
+* `SNJalaaliDateFormatPersian`          ۱۳۷۵/۱/۱۶
 * `SNJalaaliDateFormatPersianText`      خروجی: ۱۶ فروردین ۱۳۷۵
 
 **Show Jalaali Time**
