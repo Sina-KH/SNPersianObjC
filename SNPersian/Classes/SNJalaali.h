@@ -10,6 +10,7 @@
 
 @interface SNJalaali : NSObject
 
+@property(readonly) NSDate* date;
 @property(readonly) NSInteger year;
 @property(readonly) NSInteger month;
 @property(readonly) NSInteger day;

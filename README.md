@@ -13,10 +13,22 @@ First of all, don't forget to import SNPersian.h in your .m file
 import "SNPersian.h"
 ```
 
-### NSDate Extension
+### NSDate Extensions
 
-- Input: April 4, 1996 15:00
+**Input date:  April 4, 1996 15:00**
 
+**Show Relative String**
+
+```sh
+[date relativeStringWithFormat:NSDateRelativeStringFormatEnglish]
+```
+
+Available string formats:
+
+* `NSDateRelativeStringFormatEnglish`   21 years ago
+* `NSDateRelativeStringFormatPersian`   خروجی: ۲۱ سال قبل
+
+**Show Jalaali Date**
 ```sh
 [[date jalaali] dateWithFormat:SNJalaaliDateFormatEnglish]
 ```
@@ -27,6 +39,7 @@ Available date formats:
 * `SNJalaaliDateFormatPersian`          ۱۳۷۵/۰۱/۱۶
 * `SNJalaaliDateFormatPersianText`      خروجی: ۱۶ فروردین ۱۳۷۵
 
+**Show Jalaali Time**
 ```sh
 [[date jalaali] timeWithFormat:SNJalaaliTimeFormatEnglish]
 ```
@@ -35,11 +48,24 @@ Available time formats:
 
 * `SNJalaaliTimeFormatEnglish`          15:00
 * `SNJalaaliTimeFormatEnglishText`      3:00 PM
-* `SNJalaaliTimeFormatPersian`          ۱۵:۰۰
+* `SNJalaaliTimeFormatPersian`          ۱۵:00
 * `SNJalaaliTimeFormatPersianText`      خروجی: ۳:۰۰ ب.ظ
 * `SNJalaaliTimeFormatPersianLongText`  خروجی: ۳:۰۰ بعدازظهر
 
-Other APIs:
+**Show Jalaali DateTime**
+
+```sh
+[[date jalaali] dateTimeWithFormat:SNJalaaliDateFormatEnglish timeFormat:SNJalaaliTimeFormatEnglishText seperator:@"."]
+```
+
+- 1375/01/16 . 3:00 PM
+
+```sh
+[[date jalaali] dateTimeWithFormat:SNJalaaliDateFormatPersianText timeFormat:SNJalaaliTimeFormatPersianLongText seperator:nil]
+```
+- خروجی: ۱۶ فروردین ۱۳۷۵ ۳:۰۰ بعدازظهر
+
+**Other APIs**
 ```sh
 [date jalaali].year
 [date jalaali].month

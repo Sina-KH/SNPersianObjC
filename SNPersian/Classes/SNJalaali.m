@@ -12,17 +12,11 @@
 
 @implementation SNJalaali
 
-@synthesize year = _year;
-@synthesize month = _month;
-@synthesize day = _day;
-@synthesize hour = _hour;
-@synthesize minute = _minute;
-@synthesize second = _second;
-
 -(instancetype)initWithDate:(NSDate *)date {
     self = [super init];
     if(self)
     {
+        _date = date;
         NSCalendar *calender = [[NSCalendar alloc] initWithCalendarIdentifier: NSCalendarIdentifierPersian];
         NSDateComponents *components = [calender components:
                                         NSCalendarUnitDay   | NSCalendarUnitMonth   | NSCalendarUnitYear |

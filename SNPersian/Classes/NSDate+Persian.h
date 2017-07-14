@@ -13,4 +13,10 @@
 
 -(SNJalaali *) jalaaliDate;
 
+typedef NS_ENUM(NSInteger, NSDateRelativeStringFormat) {
+    NSDateRelativeStringFormatEnglish,
+    NSDateRelativeStringFormatPersian
+};
+-(NSString *)relativeStringWithFormat: (NSDateRelativeStringFormat) format;
+
 @end
