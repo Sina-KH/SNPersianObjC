@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNPersian'
-  s.version          = '0.3'
+  s.version          = '0.4'
   s.summary          = 'SNPersian, Persian extensions for Obj-C Classes.'
 
 # This description is used to generate tags and improve search results.
