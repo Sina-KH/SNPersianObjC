@@ -30,7 +30,7 @@
 }
 
 -(NSString *) persianChars {
-    NSString *string = [[NSString alloc] initWithString: self];
+    NSString *string = [self persianDigits];
     string = [string stringByReplacingOccurrencesOfString:@"ي" withString:@"ی"];
     string = [string stringByReplacingOccurrencesOfString:@"ة" withString:@"ه"];
     string = [string stringByReplacingOccurrencesOfString:@"ك" withString:@"ک"];
