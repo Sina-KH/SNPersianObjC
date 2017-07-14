@@ -7,7 +7,7 @@
 //
 
 #import "NSString+Persian.h"
-#import "SNConstants.m"
+#import "SNPersianConstants.m"
 #import "SNJalaali.h"
 
 @implementation SNJalaali

@@ -8,7 +8,7 @@
 
 #import "NSString+Persian.h"
 #import "NSDate+Persian.h"
-#import "SNConstants.m"
+#import "SNPersianConstants.m"
 
 @implementation NSDate (SKPersian)
 
